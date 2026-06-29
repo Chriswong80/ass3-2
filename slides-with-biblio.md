@@ -148,6 +148,25 @@ Please refer to the output of the previous R cell for the full ANOVA summary, in
 :::
 ::::
 
+----
+
+:::: {.columns}
+::: {.column width="50%"}
+### ANOVA of Part Resistance by Temperature (Machine 1)
+
+We perform an ANOVA to assess if varying temperature has a statistically significant effect on the part resistance for Machine 1. The Upper Specification Limit (USL) for Part Resistance is 10, and there is no Lower Specification Limit (LSL).
+
+**ANOVA Results Interpretation:**
+Please refer to the output of the previous R cell for the full ANOVA summary, including the p-value for the 'Temperature_Factor' term.
+*   If the p-value for 'Temperature_Factor' is less than your chosen significance level (e.g., 0.05), it indicates a statistically significant effect of temperature on part resistance.
+*   The boxplot provides a visual representation of the distribution of part resistance at different temperature settings, with the dashed orange line indicating the USL.
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/anova_part_resistance_by_temperature_machine1.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
 ---
 # Bibliography
 <div id="refs"></div>
